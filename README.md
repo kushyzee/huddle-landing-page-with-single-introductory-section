@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://github.com/kushyzee/huddle-landing-page-with-single-introductory-section/tree/main)
+- Solution URL: [github](https://github.com/kushyzee/huddle-landing-page-with-single-introductory-section)
 - Live Site URL: [view website](https://kushyzee.github.io/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
