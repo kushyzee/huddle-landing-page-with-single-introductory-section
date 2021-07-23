@@ -1,0 +1,246 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    min-width: 15.6em; /* 300px */
+    padding: 3rem;
+    font-family: 'open sans', Sans-Serif;
+    font-size: 1.6rem;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('bg-mobile.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    color: white;
+}
+
+.container {
+    max-width: 56em; /* 896px */
+    margin: 0 auto;
+}
+
+#logo {
+    width: 35%;
+}
+
+#mockup {
+    display: block;
+    width: 100%;
+    margin: 5.5rem 0;
+}
+
+.content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'poppins', Sans-Serif;
+    font-size: 3rem;
+    display: block;
+    line-height: 1.2;
+    margin: 0 auto 2rem;
+}
+
+.content>p {
+    line-height: 1.3;
+}
+
+#button {
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button>a {
+    font-family: 'poppins', Sans-Serif;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3rem;
+    font-weight: 700;
+    padding: 1.2rem 6rem;
+    background: white;
+    color: hsl(257, 40%, 49%);
+    text-align: center;
+    transition: all 0.3s linear;
+}
+
+#button>a:hover {
+    background: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+.social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem auto 0;
+    color: white;
+}
+
+.social-btn>a {
+    display: flex;     /* to center the brand logos */
+    align-items: center;
+    justify-content: center;
+    width: 3.8rem;        /* fixed width and height to make the border a circle */
+    height: 3.8rem;
+    color: white;
+    font-size: 2rem;
+    border: 2px white solid;
+    border-radius: 50%;
+    padding: 1.2rem;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.social-btn>a:hover {
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.social-btn>a:nth-of-type(2) {
+    margin: 0 1.6rem;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin: 4.5rem 0 0;
+    
+}
+.attribution a { 
+    text-decoration: none;
+    color: hsl(300, 69%, 71%);
+    transition: all 0.3s linear;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+
+/* ========== MEDIA QUERIES ========= */
+@media (min-width: 90em) { /* 1440px */
+    body {
+    padding: 8rem 8rem 0;
+    font-size: 2rem;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: middle left;
+    color: white;
+    }
+
+    #logo {
+    width: 40%;
+    }
+    
+    #mockup {
+    width: 100%
+    margin: 12rem 0;
+    }
+    
+    .container {
+    max-width: 100em; /* 2000px */
+    margin: 0 auto;
+    display: grid;
+    grid-auto-columns: 2fr 1.5fr;
+    width: 100%;
+    grid-template-areas: 'item1 item2';
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 6rem;
+    }
+    
+    .item1 {
+        grid-area: item1;
+        margin: 0;
+    }
+    
+    .item2 {
+        grid-area: item2;
+        margin: 0;
+    }
+    
+    .content {
+        text-align: initial;
+        padding: 6rem 2rem 0 0;
+        margin-top: 6rem;
+    }
+    
+    h1 {
+    font-size: 4.7rem;
+    display: inline-block;
+    line-height: 1.5;
+    margin: 0 0 3rem;
+    padding: 3rem 3rem 0 0;
+    }
+    
+    .content>p {
+    display: block;
+    line-height: 2;
+    }
+
+    #button {
+    margin: 5rem 0;
+    display: block;
+    }
+
+    #button>a {
+    display: inline;
+    border-radius: 3rem;
+    padding: 1.8rem 6rem;
+    text-align: left;
+    }
+    
+    .social-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 15rem 0 3rem;
+    }
+    
+    footer {
+        display: none;
+    }
+    
+}
+
+
+
+
+@media (min-width: 125em) { /* 2000px */
+    body {
+    padding: 15vh 0;
+    }
+
+    .container {
+    max-width: 100em; /* 1600px */
+    margin: 0 auto;
+    }
+    
+    .social-btn {
+        margin-right: 8rem;
+    }
+
+}
