@@ -139,7 +139,7 @@ h1 {
 @media (min-width: 90em) { /* 1440px */
     body {
     padding: 4rem 4rem 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
     background-color: hsl(257, 40%, 49%);
     background-image: url('bg-desktop.svg');
     background-size: cover;
@@ -151,11 +151,12 @@ h1 {
 
     #logo {
     width: 35%;
+    margin-top: 0;
     }
     
     #mockup {
     width: 100%
-    margin: 15rem 0 0;
+    margin: 16rem 0 0;
     }
     
     .container {
@@ -216,7 +217,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 12rem 0 3rem;
+    margin: 10rem 0 3rem;
     padding-right: 2rem;
     }
     
