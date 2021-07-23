@@ -216,7 +216,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 13rem 0 3rem;
+    margin: 13rem 2rem 3rem 0;
     }
     
     footer {
