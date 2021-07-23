@@ -46,14 +46,14 @@ body {
 
 h1 {
     font-family: 'poppins', Sans-Serif;
-    font-size: 3rem;
+    font-size: 2.6rem;
     display: block;
-    line-height: 1.2;
+    line-height: 1.1:;
     margin: 0 auto 2rem;
 }
 
 .content>p {
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 #button {
@@ -86,7 +86,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6rem auto 0;
+    margin: 4rem auto 1rem;
     color: white;
 }
 
